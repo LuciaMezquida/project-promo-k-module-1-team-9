@@ -1,4 +1,29 @@
+:root {
+    --white: white;
+    --blue: #099d8d;
+    --aqua: #14d9c4;
+    --font-grey: #54585a;
+    --background-grey: #b8b8b9;
+}
 * {
     box-sizing: border-box;
     margin: 0;
+}
+.team-name {
+    color: var(--white);
+    background: var(--blue);
+    width: 100%;
+    height: 60px;
+    font-family: Rubik-Medium;
+}
+h1 .team-name {
+    width: 160px;
+    height: 30px;
+    border: solid red;
+}
+.claim {
+    width: 290px;
+    height: 80px;
+    background-color: white;
+    border: solid blue;
 }
