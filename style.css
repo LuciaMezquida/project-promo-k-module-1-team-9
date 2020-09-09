@@ -62,6 +62,7 @@ h1 .team-name {
 /*Hero */
 .image-hero {
     max-width: 421px;
+    margin: auto;
 }
 .image-hero img {
     width: 100%;
