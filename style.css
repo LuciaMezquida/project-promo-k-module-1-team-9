@@ -42,7 +42,8 @@ h1 .team-name {
 } */
 /*Hero */
 .image-hero {
-    width: 421px;
+    width: 100%;
+    max-width: 421px;
 }
 
 /* Claim */
