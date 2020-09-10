@@ -116,24 +116,33 @@ a {
 
 /*Strenghts & Weaknesses*/
 
-/*rectangle*/
+/*rectangle
 .rectangle  {
   width: 30px;
   height: 30px;
   transform: rotate(45deg);
-  background-color: white;
+  background-color:white;
   border: solid red;
   position: relative;
   left: 140px;
   top: 10px;
-}
+} */
 
 .str-weak {
   width: 320px;
   text-align: center;
   padding: 0 15px;
   margin: auto;
+  background-color: var(--background-grey);
+  height: 579px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  align-items: center;
+  font-size: 16px;
+  line-height: 24px;
+  margin: auto;
 }
+
 .str-weak h2 {
   font-family: "Rubik", sans-serif;
   font-size: 24px;
@@ -142,15 +151,6 @@ a {
   height: 45px;
   justify-content: center;
   text-align: center;
-}
-.str-description  {
-  font-family: "Open Sans", sans-serif;
-  font-weight: normal;
-  text-align: center;
-  width: 290px;
-  font-size: 16px;
-  line-height: 24px;
-  margin: auto;
 }
 
 /*Quienes somos*/
