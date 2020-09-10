@@ -75,6 +75,7 @@ a {
 }
 .image-hero {
     margin: auto;
+    max-width: 421px;
 }
 .image-hero img {
     width: 100%;
