@@ -213,7 +213,8 @@ a {
 }
 
 .link:before {
-    content: ".";
+    content: "·";
+    padding-right: 4px;
     color: var(--font-grey);
 }
 /* Footer */
