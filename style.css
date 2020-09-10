@@ -116,7 +116,7 @@ a {
 
 /*Strenghts & Weaknesses*/
 
-/*
+/*rectangle*/
 .rectangle  {
   width: 30px;
   height: 30px;
@@ -127,7 +127,7 @@ a {
   left: 140px;
   top: 10px;
 }
-*/
+
 .str-weak {
   width: 320px;
   text-align: center;
