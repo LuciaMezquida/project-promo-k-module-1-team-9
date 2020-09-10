@@ -68,15 +68,55 @@ a {
     font-size: 15px;
 }
 /*Hero */
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .image-hero {
     margin: auto;
+    max-height: 421px;
 }
 .image-hero img {
     width: 100%;
 }
 
+.claim {
+    background-color: var(--white);
+    height: 80px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500px;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    position: relative;
+    top: -60px;
+}
+/*Equipo*/
+
+.team h2 {
+    font-family: "Rubik", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--aqua);
+    height: 45px;
+    justify-content: center;
+    text-align: center;
+}
+
+.team-description {
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    text-align: center;
+    width: 290px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: auto;
+}
+
 /*Strenghts & Weaknesses*/
-/*
+
 .rectangle  {
       width: 30px;
       height: 30px;
@@ -86,7 +126,6 @@ a {
       position: relative;
       left: 140px;
       top: 10px;
-      position: relative;
 }
 
 .strenghts-weaknesses  {
@@ -120,43 +159,6 @@ a {
       line-height: 1.5;
       letter-spacing: normal;
       text-align: center;
-}
-
-/* Claim */
-.claim {
-    width: 290px;
-    height: 80px;
-    background-color: white;
-    border: solid blue;
-}
-/* Claim */
-.claim {
-    height: 80px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 500px;
-    justify-content: center;
-    text-align: center;
-}
-/*Equipo*/
-
-.team h2 {
-    font-family: "Rubik", sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    color: var(--aqua);
-    height: 45px;
-    justify-content: center;
-    text-align: center;
-}
-
-.team-description {
-    font-family: "Open Sans", sans-serif;
-    font-weight: normal;
-    text-align: center;
-    width: 290px;
-    font-size: 16px;
-    line-height: 24px;
-    margin: auto;
 }
 
 /*Quienes somos*/
