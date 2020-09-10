@@ -23,24 +23,31 @@ a {
     text-decoration: none;
 }
 /* Team Name */
+
+.header-top {
+    opacity: 0.95;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
 .team-name {
     color: var(--white);
     background: var(--blue);
     width: 100%;
     height: 60px;
+    font-family: "Rubik";
+    font-size: 16px;
     text-transform: uppercase;
+    line-height: 1.88;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    justify-content: center;
 }
 .team-name h1 {
-    font-family: "Rubik", sans-serif;
     font-size: 16px;
-    line-height: 1.88;
-    font-weight: 500;
-    width: 160px;
-    height: 30px;
+    margin: auto;
 }
+
 /*i Nav Header*/
 .nav-header {
     background: var(--aqua);
@@ -62,8 +69,6 @@ a {
 }
 /*Hero */
 .image-hero {
-    max-width: 320px;
-    max-height: 421px;
     margin: auto;
 }
 .image-hero img {
