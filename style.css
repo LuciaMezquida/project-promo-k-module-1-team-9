@@ -69,12 +69,88 @@ h1 .team-name {
     width: 100%;
 }
 
+/*Strenghts & Weaknesses*/
+
+.rectangle  {
+      width: 30px;
+      height: 30px;
+      transform: rotate(45deg);
+      background-color: white;
+      border: solid red;
+      position: relative;
+      left: 140px;
+      top: 10px;
+      position: relative;
+}
+
+.strenghts-weaknesses  {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 320px;
+      height: auto;
+      background-color: var(--background-grey);
+      opacity: 0.8;
+}
+
+.str-item  {
+      align-content: center;
+      margin: 10px;
+      padding: 20px;
+}
+
+.str-name  {
+      color: var(--blue);
+      text-align: center;
+      margin: 10px;
+}
+
+.str-text  {
+      color: var(--font-grey);
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: center;
+}
+
 /* Claim */
 .claim {
     width: 290px;
     height: 80px;
     background-color: white;
     border: solid blue;
+}
+/* Claim */
+.claim {
+    height: 80px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500px;
+    justify-content: center;
+    text-align: center;
+}
+/*Equipo*/
+
+.team h2 {
+    font-family: "Rubik", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--aqua);
+    height: 45px;
+    justify-content: center;
+    text-align: center;
+}
+
+.team-description {
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    text-align: center;
+    width: 290px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: auto;
 }
 
 /*Quienes somos*/
