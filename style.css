@@ -161,7 +161,6 @@ a {
     width: 100%;
     text-align: center;
     padding: 0 15px;
-    margin: auto;
 }
 
 .we-are h2 {
@@ -229,6 +228,9 @@ a {
     .file-description1 .social {
         margin: 0;
     }
+    .photo-individual {
+        width: 205px;
+    }
     .photo2 {
         order: 2;
     }
@@ -242,6 +244,15 @@ a {
     .photo1,
     .photo2 {
         padding-top: 20px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .file {
+        padding: 0 138px 60px 138px;
+    }
+    .photo-individual {
+        width: 278px;
     }
 }
 
