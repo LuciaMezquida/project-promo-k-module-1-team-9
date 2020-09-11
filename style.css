@@ -213,6 +213,38 @@ a {
     color: var(--font-grey);
     padding-right: 4px;
 }
+
+@media all and (min-width: 768px) {
+    .we-are h2 {
+        padding-top: 45px;
+    }
+    .file {
+        padding: 0 45px;
+        display: flex;
+    }
+    .file-description1 {
+        text-align: left;
+        padding-left: 30px;
+    }
+    .file-description1 .social {
+        margin: 0;
+    }
+    .photo2 {
+        order: 2;
+    }
+    .file-description2 {
+        text-align: right;
+        padding-right: 30px;
+    }
+    .social2 {
+        margin-right: 0;
+    }
+    .photo1,
+    .photo2 {
+        padding-top: 20px;
+    }
+}
+
 /* Footer */
 
 .footer {
