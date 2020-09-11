@@ -91,6 +91,7 @@ a {
         font-size: 16px;
     }
 }
+
 /*Hero */
 .image {
     display: flex;
@@ -294,7 +295,6 @@ a {
 }
 .footer-name {
     color: var(--background-grey);
-    width: 172px;
     height: 20px;
     font-family: "Open Sans";
     font-size: 14px;
@@ -312,4 +312,32 @@ a {
 .logo {
     width: 115.9px;
     height: 45px;
+}
+
+@media all and (min-width: 768px) {
+    .footer{
+        flex-direction: row;
+        justify-content: space-between;
+        height: 170px;
+        position: relative;
+    }
+    .footer-name{
+        order: 2;
+        position: absolute;
+        top: 30px;
+        left: 45px;
+    }
+    .footer-menu{
+        order: 3;
+    }
+    .nav-footer{
+        text-align: right;
+        padding-right: 45px;
+        height: 90px;
+        width: 300px;
+    }
+    .footer-logo{
+        order: 1;
+        padding-left: 45px;
+    }
 }
