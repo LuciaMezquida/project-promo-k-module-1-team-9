@@ -8,7 +8,8 @@
   --blue: #099d8d;
   --aqua: #14d9c4;
   --font-grey: #54585a;
-  --background-grey: #b8b8b9;
+  --background-grey: rgb(184, 184, 185);
+  --background-grey-2: rgb(184, 184, 185, 0.2);
 }
 * {
   box-sizing: border-box;
@@ -112,47 +113,48 @@ a {
   font-size: 16px;
   line-height: 24px;
   margin: auto;
+  padding-bottom: 30px;
 }
 
 /*Strenghts & Weaknesses*/
-
-/*rectangle
-.rectangle  {
+.rectangle {
   width: 30px;
   height: 30px;
   transform: rotate(45deg);
-  background-color:white;
-  border: solid red;
+  background-color: white;
   position: relative;
-  left: 140px;
-  top: 10px;
-} */
+  top: -30px;
+  left: 47%;
+}
 
 .str-weak {
-  width: 320px;
+  width: 100%;
   text-align: center;
-  padding: 0 15px;
   margin: auto;
-  background-color: var(--background-grey);
-  height: 579px;
+  background-color: var(--background-grey-2);
+  padding: 15px 0px 30px 0px;
+}
+.str-item {
+  margin: 10px;
+  opacity: none;
+}
+
+.str-name {
+  padding: 15px 0;
+  color: var(--aqua);
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  opacity: 1;
+}
+.str-text {
   font-family: "Open Sans", sans-serif;
-  font-weight: normal;
-  align-items: center;
   font-size: 16px;
   line-height: 24px;
-  margin: auto;
+  color: var(--font-grey);
+  padding: 0 15px;
+  opacity: 1;
 }
-
-.str-weak h2 {
-  font-family: "Rubik", sans-serif;
-  font-size: 24px;
-  font-weight: 500;
-  color: var(--aqua);
-  height: 45px;
-  justify-content: center;
-  text-align: center;
-}
-
 /*Quienes somos*/
 
 .we-are {
