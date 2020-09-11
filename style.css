@@ -209,8 +209,9 @@ a {
 }
 
 .link:before {
-    content: ".";
+    content: "·";
     color: var(--font-grey);
+    padding-right: 4px;
 }
 /* Footer */
 
