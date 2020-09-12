@@ -76,13 +76,16 @@ a {
 @media all and (min-width: 768px) {
   .header-top {
     flex-direction: row;
-    justify-content: space-evenly;
   }
   .team-name {
-    width: 50%;
+    width: 60%;
   }
+  .team-name h1 {
+    margin-left: 45px;
+  }
+
   .nav-top {
-    width: 50%;
+    width: 40%;
   }
   .nav-header {
     background: var(--blue);
