@@ -85,7 +85,7 @@ a {
   }
   .team-name h1 {
     margin-left: 45px;
-  }
+
 
   /* Nav Header Media queries Tablet */
 
@@ -215,6 +215,35 @@ a {
   left: 48%;
 }
 
+@media all and (min-width: 768px)
+{
+.rectangle{
+  border: solid red;
+}
+.str-weak {
+  display: flex;
+  width: 100%;
+  
+}
+.str-text{
+  width: 100%;
+  text-align: center;
+}
+
+@media all and (min-width: 1200px)
+{
+  .str-weak {
+    display: flex;
+    width: 100%;
+    
+  }
+  .str-text{
+    width: 100%;
+    text-align: center;
+  }
+}
+
+}
 .str-weak {
   width: 100%;
   text-align: center;
