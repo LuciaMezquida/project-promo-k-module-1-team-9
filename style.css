@@ -197,6 +197,7 @@ a {
   padding: 0 15px;
   opacity: 1;
 }
+
 /*Quienes somos*/
 
 .we-are {
@@ -255,6 +256,8 @@ a {
   padding-right: 4px;
 }
 
+/*Quienes somos Media queries Tablet*/
+
 @media all and (min-width: 768px) {
   .we-are h2 {
     padding-top: 45px;
@@ -288,6 +291,8 @@ a {
     padding-top: 20px;
   }
 }
+
+/*Quienes somos Media queries PC*/
 
 @media all and (min-width: 1200px) {
   .file {
@@ -333,6 +338,8 @@ a {
   height: 45px;
 }
 
+/* Footer Media queries Tablet */
+
 @media all and (min-width: 768px) {
   .footer {
     flex-direction: row;
@@ -359,5 +366,16 @@ a {
   .footer-logo {
     order: 1;
     padding-left: 45px;
+  }
+}
+
+/* Footer Media PC */
+
+@media all and (min-width: 1200px) {
+  .footer {
+    padding: 0 138px 0 138px;
+  }
+  .footer-name {
+    padding-left: 138px;
   }
 }
