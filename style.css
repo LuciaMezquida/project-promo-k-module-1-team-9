@@ -23,6 +23,7 @@ li {
 a {
   text-decoration: none;
 }
+
 /* Team Name */
 
 .header-top {
@@ -73,6 +74,8 @@ a {
   font-size: 15px;
 }
 
+/* Team Name Media queries Tablet */
+
 @media all and (min-width: 768px) {
   .header-top {
     flex-direction: row;
@@ -84,6 +87,8 @@ a {
     margin-left: 45px;
   }
 
+  /* Nav Header Media queries Tablet */
+
   .nav-top {
     width: 40%;
   }
@@ -92,6 +97,16 @@ a {
     height: 60px;
     padding: 16px 0 14px 0;
     font-size: 16px;
+  }
+}
+
+/* Header Top Media queries PC*/
+@media all and (min-width: 1200px) {
+  .team-name h1 {
+    margin-left: 142px;
+  }
+  .nav-header {
+    padding-right: 138px;
   }
 }
 
