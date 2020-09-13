@@ -117,11 +117,18 @@ a {
     align-items: center;
 }
 .image-hero {
-    margin: auto;
-}
-.collage {
-    width: 100%;
+    /* margin: auto; */
     height: 421px;
+    width: 100%;
+    background-image: url("/images/collage.jpg");
+    background-color: var(--aqua);
+    background-size: contain;
+}
+
+@media all and (max-width: 420px) {
+    .image-hero {
+        background-repeat: no-repeat;
+    }
 }
 
 .claim {
@@ -134,34 +141,38 @@ a {
     padding: 15px;
     margin: 15px;
     position: relative;
-    top: -60px;
+    top: 360px;
+    z-index: 100;
 }
-
-/* Hero Image Media queries */
-
+/* Hero Media queries Tablet*/
 @media all and (min-width: 768px) {
-    .image-hero {
-        overflow: hidden;
-    }
-    .collage {
-        transform: translate(0, -280px);
-        height: 421px;
+    .claim {
+        width: 381px;
+        height: 50px;
+        margin-left: 46px;
+        opacity: 0.5;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        font-weight: 600;
     }
 }
+/* Hero Media queries PC*/
 @media all and (min-width: 1200px) {
-    .image-hero {
-        height: 421px;
-        width: 100%;
-        background-image: url("/images/collage.jpg");
-        background-size: contain;
-        background-repeat: repeat;
-    }
-    .collage {
-        display: none;
+    .claim {
+        box-sizing: border-box;
+        margin-left: 168px;
+        padding: 15px;
+        width: 514px;
+        height: 60px;
+        font-size: 24px;
     }
 }
 
 /*Equipo*/
+.team {
+    margin-top: 50px;
+}
 
 .team h2 {
     font-family: "Rubik", sans-serif;
@@ -430,6 +441,7 @@ a {
         height: 90px;
         width: 300px;
         line-height: 2.14;
+        opacity: 0.75;
     }
     .footer-logo {
         order: 1;
@@ -445,5 +457,12 @@ a {
     }
     .footer-name {
         padding-left: 138px;
+        left: 0;
+    }
+    .nav-footer {
+        padding-right: 0;
+    }
+    .footer-logo {
+        padding-left: 0;
     }
 }
