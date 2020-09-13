@@ -232,11 +232,11 @@ a {
 .rectangle {
     width: 30px;
     height: 30px;
-    transform: rotate(45deg);
+    transform: rotate(45deg) translate(-50%, 50%);
     background-color: white;
     position: relative;
     top: -30px;
-    left: 48%;
+    left: 50%;
 }
 
 @media all and (min-width: 768px) {
