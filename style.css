@@ -230,38 +230,12 @@ a {
 }
 /*Strenghts & Weaknesses*/
 .rectangle {
+    position: relative;
     width: 30px;
     height: 30px;
-    transform: rotate(45deg) translate(-50%, 50%);
     background-color: white;
-    position: relative;
-    top: -30px;
-    left: 50%;
-}
-
-@media all and (min-width: 768px) {
-    .rectangle {
-        border: solid red;
-    }
-    .str-weak {
-        display: flex;
-        width: 100%;
-    }
-    .str-text {
-        width: 100%;
-        text-align: center;
-    }
-
-    @media all and (min-width: 1200px) {
-        .str-weak {
-            display: flex;
-            width: 100%;
-        }
-        .str-text {
-            width: 100%;
-            text-align: center;
-        }
-    }
+    transform: translate(0, 50%) rotate(45deg);
+    margin: auto;
 }
 .str-weak {
     width: 100%;
@@ -290,6 +264,29 @@ a {
     color: var(--font-grey);
     padding: 0 15px;
     opacity: 1;
+}
+
+@media all and (min-width: 768px) {
+    .str-weak {
+        display: flex;
+    }
+    .str-text {
+        text-align: center;
+    }
+    .str-item {
+        flex-basis: 50%;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .str-weak {
+        display: flex;
+        width: 100%;
+    }
+    .str-text {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 /*Quienes somos*/
