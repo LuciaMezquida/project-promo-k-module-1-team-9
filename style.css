@@ -163,6 +163,30 @@ a {
     font-size: 24px;
 }
 
+/* Hero Image Media queries */
+
+@media all and (min-width: 768px) {
+    .image-hero {
+        max-height: 421px;
+        overflow: hidden;
+    }
+    .collage {
+        transform: translate(0, -280px);
+    }
+}
+@media all and (min-width: 1200px) {
+    .image-hero {
+        height: 421px;
+        width: 100%;
+        background-image: url("/images/collage.jpg");
+        background-size: contain;
+        background-repeat: repeat;
+    }
+    .collage {
+        display: none;
+    }
+}
+
 /*Equipo*/
 
 .team h2 {
