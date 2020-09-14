@@ -1,5 +1,4 @@
 # project-promo-k-module-1-team-9
-http://beta.adalab.es/project-promo-k-module-1-team-9/
 
 <p>En este proyecto vamos a desarrollar nuestra primera web colaborativa. Para ello crearemos una web con la información social de todos los miembros del equipo. Es muy importante dar visibilidad de que hemos hecho trabajo en equipo. ¡Esta será nuestra primera experiencia de trabajo en equipo relacionada con programación!</p>
 
