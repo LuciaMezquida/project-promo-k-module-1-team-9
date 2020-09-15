@@ -136,7 +136,7 @@ a {
     /* margin: auto; */
     height: 421px;
     width: 100%;
-    background-image: url("./images/collage.jpg");
+    background-image: url("../images/collage.jpg");
     background-color: var(--aqua);
     background-size: contain;
 }
