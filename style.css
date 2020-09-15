@@ -24,6 +24,9 @@ li {
 a {
     text-decoration: none;
 }
+.column {
+    padding: 0 15px;
+}
 
 /* Team Name */
 
@@ -194,7 +197,6 @@ a {
     width: 100%;
     font-size: 16px;
     line-height: 24px;
-    margin: auto;
     padding-bottom: 30px;
 }
 /* Equipo Media queries Tablet*/
@@ -210,11 +212,11 @@ a {
 }
 /* Equipo Media queries PC*/
 @media all and (min-width: 1200px) {
-}
-.team-description {
-    padding-left: 25%;
-    padding-right: 25%;
-    opacity: 0.67;
+    .team-description {
+        padding-left: 25%;
+        padding-right: 25%;
+        opacity: 0.67;
+    }
 }
 /*Strenghts & Weaknesses*/
 .rectangle {
@@ -228,13 +230,12 @@ a {
 .str-weak {
     width: 100%;
     text-align: center;
-    margin: auto;
     background-color: var(--background-grey-2);
     padding: 15px 0px 30px 0px;
 }
 .str-item {
-    margin: 10px;
     opacity: none;
+    padding-bottom: 30px;
 }
 
 .str-name {
@@ -250,7 +251,6 @@ a {
     font-size: 16px;
     line-height: 24px;
     color: var(--font-grey);
-    padding: 0 15px;
     opacity: 1;
 }
 
