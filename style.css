@@ -231,7 +231,7 @@ a {
     width: 100%;
     text-align: center;
     background-color: var(--background-grey-2);
-    padding: 15px 0px 30px 0px;
+    padding: 15px 0px 15px 0px;
 }
 .str-item {
     opacity: none;
@@ -282,7 +282,6 @@ a {
 .we-are {
     width: 100%;
     text-align: center;
-    padding: 0 15px;
 }
 
 .we-are h2 {
@@ -414,6 +413,7 @@ a {
 }
 .footer-item {
     color: var(--font-grey);
+    opacity: 0.75;
 }
 .logo {
     width: 115.9px;
@@ -440,6 +440,7 @@ a {
     }
     .nav-footer {
         text-align: right;
+        color: var(--background-grey);
         padding-right: 45px;
         height: 90px;
         width: 300px;
