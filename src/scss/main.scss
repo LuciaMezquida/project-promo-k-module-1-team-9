@@ -1,20 +1,5 @@
-/* Root */
-
-/* font-family: "Open Sans", sans-serif;
-    font-family: 'Rubik', sans-serif; */
-
-:root {
-  --white: rgb(255, 255, 255);
-  --background-white: rgb(255, 255, 255, 0.8);
-  --blue: #099d8d;
-  --aqua: #14d9c4;
-  --font-grey: #54585a;
-  --background-grey: rgb(184, 184, 185);
-  --background-grey-2: rgb(184, 184, 185, 0.2);
-}
-
-@import "core/reset";
-/* Reset */
+@import "./core/reset";
+@import "./core/variables";
 
 /* Team Name */
 
@@ -29,8 +14,8 @@
   z-index: 150;
 }
 .team-name {
-  color: var(--white);
-  background: var(--blue);
+  color: $white;
+  background: $blue;
   width: 100%;
   height: 60px;
   font-family: "Rubik";

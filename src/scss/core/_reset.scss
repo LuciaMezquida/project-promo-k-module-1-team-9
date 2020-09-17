@@ -1,23 +1,24 @@
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 li {
-	list-style-type: none;
+  list-style-type: none;
 }
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 .column {
-	padding: 0 15px;
+  padding: 0 15px;
 }
 @media all and (min-width: 768px) {
-	.column {
-		padding: 0 45px;
-	}
+  .column {
+    padding: 0 45px;
+  }
 }
 @media all and (min-width: 1200px) {
-	.column {
-		padding: 0 138px;
-	}
+  .column {
+    padding: 0 138px;
+  }
+}
