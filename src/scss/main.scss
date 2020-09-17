@@ -1,39 +1,8 @@
 @import "./core/reset";
 @import "./core/variables";
 @import "./layout/hero";
+@import "./layout/header";
 /* Team Name */
-
-.header-top {
-  opacity: 0.95;
-  position: absolute;
-  z-index: 1;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  z-index: 150;
-}
-.team-name {
-  color: $white;
-  background: $blue;
-  width: 100%;
-  height: 60px;
-  font-family: "Rubik";
-  font-size: 16px;
-  text-transform: uppercase;
-  line-height: 1.88;
-  display: flex;
-  flex-wrap: wrap;
-}
-.dreamers {
-  color: var(--white);
-}
-
-.team-name h1 {
-  font-size: 16px;
-  margin: auto;
-  font-weight: 500;
-}
 
 /*Nav Header*/
 
@@ -58,38 +27,22 @@
 
 /* Team Name Media queries Tablet */
 
-@media all and (min-width: 768px) {
-  .header-top {
-    flex-direction: row;
-  }
-  .team-name {
-    width: 60%;
-  }
-  .team-name h1 {
-    margin-left: 45px;
-  }
+/* Nav Header Media queries Tablet */
 
-  /* Nav Header Media queries Tablet */
-
-  .nav-top {
-    width: 40%;
-  }
-  .nav-header {
-    background: var(--blue);
-    height: 60px;
-    padding: 16px 0 14px 0;
-    font-size: 16px;
-  }
+.nav-top {
+  width: 40%;
+}
+.nav-header {
+  background: var(--blue);
+  height: 60px;
+  padding: 16px 0 14px 0;
+  font-size: 16px;
 }
 
 /* Header Top Media queries PC*/
-@media all and (min-width: 1200px) {
-  .team-name h1 {
-    margin-left: 142px;
-  }
-  .nav-header {
-    padding-right: 138px;
-  }
+
+.nav-header {
+  padding-right: 138px;
 }
 
 /*Equipo*/
