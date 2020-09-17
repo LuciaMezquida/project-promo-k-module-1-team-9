@@ -1,0 +1,43 @@
+.team {
+  margin-top: 50px;
+}
+
+.team h2 {
+  font-family: $font-rubik;
+  font-size: 24px;
+  font-weight: 500;
+  color: $aqua;
+  height: 45px;
+  justify-content: center;
+  text-align: center;
+}
+
+.team-description {
+  font-family: $font-main;
+  font-weight: normal;
+  text-align: center;
+  width: 100%;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 30px;
+}
+
+/* Equipo Media queries Tablet*/
+@media all and (min-width: 768px) {
+  .team h2 {
+    color: $blue;
+  }
+  .team-description {
+    opacity: 0.67;
+    padding: 15px 0 45px 0;
+  }
+}
+
+/* Equipo Media queries PC*/
+@media all and (min-width: 1200px) {
+  .team-description {
+    padding-left: 20%;
+    padding-right: 20%;
+    opacity: 0.67;
+  }
+}
