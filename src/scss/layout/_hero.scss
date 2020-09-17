@@ -1,0 +1,57 @@
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image-hero {
+  /* margin: auto; */
+  height: 421px;
+  width: 100%;
+  background-image: url("../images/collage.jpg");
+  background-color: $aqua;
+  background-size: contain;
+}
+
+@media all and (max-width: 420px) {
+  .image-hero {
+    background-repeat: no-repeat;
+  }
+}
+
+.claim {
+  background-color: $white;
+  height: 80px;
+  font-family: $font-main;
+  font-weight: 500px;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  margin: 15px;
+  position: relative;
+  top: 360px;
+  z-index: 100;
+}
+/* Hero Media queries Tablet*/
+@media all and (min-width: 768px) {
+  .claim {
+    width: 381px;
+    height: 50px;
+    margin-left: 46px;
+    background-color: $background-white;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-weight: 600;
+  }
+}
+/* Hero Media queries PC*/
+@media all and (min-width: 1200px) {
+  .claim {
+    box-sizing: border-box;
+    margin-left: 168px;
+    padding: 15px;
+    width: 514px;
+    height: 60px;
+    font-size: 24px;
+  }
+}
