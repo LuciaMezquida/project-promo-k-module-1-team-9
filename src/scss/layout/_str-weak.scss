@@ -1,0 +1,70 @@
+.rectangle {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background-color: $white;
+  transform: translate(0, 50%) rotate(45deg);
+  margin: auto;
+}
+.str-weak {
+  width: 100%;
+  text-align: center;
+  background-color: $background-grey-2;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.str-item {
+  opacity: none;
+  padding-bottom: 30px;
+}
+
+.str-name {
+  padding: 15px 0;
+  color: $aqua;
+  font-family: $font-rubik;
+  font-weight: 500;
+  font-size: 24px;
+  opacity: 1;
+}
+.str-text {
+  font-family: $font-main;
+  font-size: 16px;
+  line-height: 24px;
+  color: $font-grey;
+  opacity: 1;
+}
+
+@media all and (min-width: 768px) {
+  .str-weak {
+    display: flex;
+  }
+  .str-text {
+    text-align: center;
+  }
+  .str-item {
+    flex-basis: 50%;
+  }
+  .item1 {
+    padding-right: 15px;
+  }
+  .item2 {
+    padding-left: 15px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .str-weak {
+    display: flex;
+    width: 100%;
+  }
+  .str-text {
+    width: 100%;
+    text-align: center;
+  }
+  .item1 {
+    padding-right: 22px;
+  }
+  .item2 {
+    padding-left: 22px;
+  }
+}
