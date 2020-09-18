@@ -28,16 +28,17 @@
     }
     .header__team-name__dreamers {
       color: $white;
+      padding: 10px;
     }
     h1 {
       font-size: 16px;
       margin: auto;
       font-weight: 500;
       @media (min-width: 768px) {
-        margin-left: 45px;
+        margin-left: 35px;
       }
       @media (min-width: 1200px) {
-        margin-left: 142px;
+        margin-left: 132px;
       }
     }
   }
@@ -46,7 +47,7 @@
 /*Nav Header*/
 .header__nav-top {
   @media (min-width: 768px) {
-    width: 40%;
+    width: 43%;
   }
   .header__nav {
     background: $aqua;
@@ -70,6 +71,7 @@
     .header__nav__item {
       color: $white;
       font-size: 15px;
+      padding: 10px;
       .header__nav__item-last {
         @media (min-width: 768px) {
           margin-right: 45px;
