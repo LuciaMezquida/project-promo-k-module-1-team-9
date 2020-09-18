@@ -9,15 +9,30 @@
     font-family: $font-rubik;
     font-weight: 500;
     font-size: 24px;
+    @media all and (min-width: 768px) {
+      padding-top: 45px;
+    }
   }
 }
 
 .photo-individual {
   border: 5px solid rgba(0, 0, 0, 0.08);
   border-radius: 4px;
+  @media all and (min-width: 768px) {
+    width: 205px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 278px;
+  }
 }
 
 .file {
+  @media all and (min-width: 768px) {
+    display: flex;
+  }
+  @media all and (min-width: 1200px) {
+    padding-bottom: 60px;
+  }
   h4 {
     padding-top: 15px;
     font-family: $font-main;
@@ -56,21 +71,12 @@
 /*Quienes somos Media queries Tablet*/
 
 @media all and (min-width: 768px) {
-  .we-are h2 {
-    padding-top: 45px;
-  }
-  .file {
-    display: flex;
-  }
   .file-description1 {
     text-align: left;
     padding-left: 30px;
     .social {
       margin: 0;
     }
-  }
-  .photo-individual {
-    width: 205px;
   }
   .photo2 {
     order: 2;
@@ -85,16 +91,5 @@
   .photo1,
   .photo2 {
     padding-top: 20px;
-  }
-}
-
-/*Quienes somos Media queries PC*/
-
-@media all and (min-width: 1200px) {
-  .file {
-    padding-bottom: 60px;
-  }
-  .photo-individual {
-    width: 278px;
   }
 }
