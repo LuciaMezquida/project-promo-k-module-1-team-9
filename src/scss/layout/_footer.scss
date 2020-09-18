@@ -17,7 +17,7 @@
   @media (min-width: 1200px) {
     padding: 0 138px 0 138px;
   }
-  .footer-name {
+  .footer__name {
     color: $background-grey;
     height: 20px;
     font-family: "Open Sans";
@@ -33,11 +33,11 @@
       left: 0;
     }
   }
-  .footer-menu {
+  .footer__menu {
     @media (min-width: 768px) {
       order: 3;
     }
-    .nav-footer {
+    .footer__menu__nav {
       width: 114px;
       height: 60px;
       font-family: "Open Sans";
@@ -56,13 +56,13 @@
       @media (min-width: 1200px) {
         padding-right: 0;
       }
-      .footer-item {
+      .footer__menu__item {
         color: $font-grey;
         opacity: 0.75;
       }
     }
   }
-  .footer-logo {
+  .footer__logo {
     @media (min-width: 768px) {
       order: 1;
       padding-left: 45px;
@@ -70,7 +70,7 @@
     @media (min-width: 1200px) {
       padding-left: 0;
     }
-    .logo {
+    .footer__logo__img {
       width: 115.9px;
       height: 45px;
     }
