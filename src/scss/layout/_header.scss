@@ -47,7 +47,7 @@
 /*Nav Header*/
 .header__nav-top {
   @media (min-width: 768px) {
-    width: 43%;
+    width: 50%;
   }
   .header__nav {
     background: $aqua;
@@ -72,14 +72,14 @@
       color: $white;
       font-size: 15px;
       padding: 10px;
-      .header__nav__item-last {
-        @media (min-width: 768px) {
-          margin-right: 45px;
-        }
-        @media (min-width: 1200px) {
-          margin-right: 142px;
-        }
-      }
     }
+  }
+}
+.header__nav__item-last {
+  @media (min-width: 768px) {
+    margin-right: 20px;
+  }
+  @media (min-width: 1200px) {
+    margin-right: 128px;
   }
 }
