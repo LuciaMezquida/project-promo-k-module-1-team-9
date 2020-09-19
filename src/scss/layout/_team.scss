@@ -21,6 +21,7 @@
   font-size: 16px;
   line-height: 24px;
   padding-bottom: 30px;
+  color: $font-grey;
 }
 .reminder {
   padding-top: 30px;
@@ -30,6 +31,17 @@
 
   .asterisk {
     color: $aqua;
+  }
+}
+.contact-description {
+  width: 290px;
+  margin: auto;
+  font-family: $font-main;
+  @media all and (min-width: 768px) {
+    width: 442px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 601px;
   }
 }
 
