@@ -1,18 +1,18 @@
-.scroll-box-team{
+.scroll-box__team{
     position: relative;
     top: 40px;
     @media (min-width: 768px){
         top: 0;
     }
 }
-.scroll-box-we-are{
+.scroll-box__we-are{
     position: relative;
     top: 100px;
     @media (min-width: 768px){
         top: 0;
     }
 }
-.scroll-box-footer{
+.scroll-box__footer{
     margin-top: 140px;
     @media (min-width: 768px){
         margin-top: 0;
