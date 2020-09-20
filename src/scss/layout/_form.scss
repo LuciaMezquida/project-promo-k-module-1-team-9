@@ -19,8 +19,16 @@
   width: 100%;
   height: 45px;
   padding: 15px;
+  font-size:16px;
   border: solid 1px $background-grey;
   outline-color: $blue;
+  &::placeholder{
+    color: $background-grey;
+    font-size: 14px;
+  }
+  &:focus{
+    border: 4px solid $aqua;
+  }
 }
 .label {
   padding-top: 10px;
@@ -34,6 +42,14 @@
   padding: 10px 15px;
   border: solid 1px $background-grey;
   outline-color: $blue;
+  font-size: 16px;
+  &::placeholder{
+    color: $background-grey;
+    font-size: 14px;
+  }
+  &:focus{
+    border: 4px solid $aqua;
+  }
 }
 .asterisk {
   color: $aqua;
