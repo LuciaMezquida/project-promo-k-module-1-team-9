@@ -1,0 +1,14 @@
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image-hero-contact {
+  /* margin: auto; */
+  height: 421px;
+  width: 100%;
+  background-image: url("../images/mailbox2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
