@@ -1,14 +1,13 @@
 .team h2 {
   text-transform: uppercase;
-  font-family: $font-rubik;
+  font-family: $font-secondary;
   font-size: 24px;
   font-weight: 500;
-  color: $blue;
+  color: $color-main;
   height: 45px;
   justify-content: center;
   text-align: center;
 }
-
 .team-description {
   font-family: $font-main;
   font-weight: normal;
@@ -17,7 +16,7 @@
   font-size: 16px;
   line-height: 24px;
   padding-bottom: 30px;
-  color: $font-grey;
+  color: $color-font-main;
 }
 .reminder {
   padding-top: 30px;
@@ -26,7 +25,7 @@
   }
 
   .asterisk {
-    color: $aqua;
+    color: $color-secondary;
   }
 }
 .contact-description {
@@ -44,7 +43,7 @@
 /* Equipo Media queries Tablet*/
 @media all and (min-width: 768px) {
   .team h2 {
-    color: $blue;
+    color: $color-main;
   }
   .team-description {
     opacity: 0.67;

@@ -4,10 +4,10 @@
 
 .team h2 {
   text-transform: uppercase;
-  font-family: $font-rubik;
+  font-family: $font-secondary;
   font-size: 24px;
   font-weight: 500;
-  color: $blue;
+  color: $color-main;
   height: 45px;
   justify-content: center;
   text-align: center;
@@ -19,7 +19,7 @@
   }
 
   .asterisk {
-    color: $aqua;
+    color: $color-secondary;
   }
 }
 .contact-description {
@@ -29,7 +29,7 @@
   font-size: 16px;
   line-height: 24px;
   padding-bottom: 30px;
-  color: $font-grey;
+  color: $color-font-main;
   width: 290px;
   margin: auto;
   font-family: $font-main;

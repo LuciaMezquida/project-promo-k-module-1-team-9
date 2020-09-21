@@ -8,7 +8,7 @@
   height: 421px;
   width: 100%;
   background-image: url("../images/collage.jpg");
-  background-color: $aqua;
+  background-color: $color-secondary;
   background-size: contain;
 }
 
@@ -37,7 +37,7 @@
     width: 381px;
     height: 50px;
     margin-left: 46px;
-    background-color: $background-white;
+    background-color: $white-transparent;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
