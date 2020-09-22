@@ -32,12 +32,6 @@
     display: grid;
     grid-template-columns: repeat (12, 1fr);
     grid-template-rows: 4;
-    // .photo-individual {
-    //   grid-column: 1/4;
-    // }
-    // .description {
-    //   grid-column: 4/11;
-    // }
     .photo1 {
       grid-column: 1/4;
     }
