@@ -29,7 +29,27 @@
 
 .file {
   @media all and (min-width: 768px) {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat (12, 1fr);
+    grid-template-rows: 4;
+    // .photo-individual {
+    //   grid-column: 1/4;
+    // }
+    // .description {
+    //   grid-column: 4/11;
+    // }
+    .photo1 {
+      grid-column: 1/4;
+    }
+    .file-description1 {
+      grid-column: 4/13;
+    }
+    .photo2 {
+      grid-column: 8/13;
+    }
+    .file-description2 {
+      grid-column: 1/8;
+    }
   }
   @media all and (min-width: 1200px) {
     padding-bottom: 60px;

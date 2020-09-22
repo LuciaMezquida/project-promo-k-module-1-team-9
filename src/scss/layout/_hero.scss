@@ -4,17 +4,16 @@
   align-items: center;
 }
 .image-hero {
-  /* margin: auto; */
   height: 421px;
   width: 100%;
   background-image: url("../images/collage.jpg");
   background-color: $color-secondary;
   background-size: contain;
-}
-
-@media all and (max-width: 420px) {
-  .image-hero {
+  @media all and (max-width: 420px) {
     background-repeat: no-repeat;
+  }
+  @media all and (min-width: 1200px) {
+    height: 550px;
   }
 }
 
@@ -30,10 +29,7 @@
   position: relative;
   top: 360px;
   z-index: 100;
-}
-/* Hero Media queries Tablet*/
-@media all and (min-width: 768px) {
-  .claim {
+  @media all and (min-width: 768px) {
     width: 381px;
     height: 50px;
     margin-left: 46px;
@@ -43,15 +39,13 @@
     align-items: flex-end;
     font-weight: 600;
   }
-}
-/* Hero Media queries PC*/
-@media all and (min-width: 1200px) {
-  .claim {
+  @media all and (min-width: 1200px) {
     box-sizing: border-box;
     margin-left: 168px;
     padding: 15px;
     width: 514px;
     height: 60px;
     font-size: 24px;
+    top: 475px;
   }
 }
