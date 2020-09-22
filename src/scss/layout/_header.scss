@@ -23,6 +23,7 @@
     line-height: 1.88;
     display: flex;
     flex-wrap: wrap;
+
     @media (min-width: 768px) {
       width: 55%;
     }
@@ -34,6 +35,14 @@
       font-size: 16px;
       margin: auto;
       font-weight: 500;
+      animation: dreamers ease 3s infinite;
+
+      &:hover {
+        transform: scale(1.5);
+        transition: ease 2s;
+        text-shadow: white 2px 2px 10px;
+      }
+
       @media (min-width: 768px) {
         margin-left: 35px;
       }
@@ -41,6 +50,20 @@
         margin-left: 132px;
       }
     }
+  }
+}
+@keyframes dreamers {
+  from {
+    transform: scale(1);
+    text-shadow: none;
+  }
+  50% {
+    transform: scale(1.5);
+    text-shadow: white 2px 2px 10px;
+  }
+  to {
+    transform: scale(1);
+    text-shadow: none;
   }
 }
 
@@ -74,6 +97,10 @@
       color: $white;
       font-size: 15px;
       padding: 10px;
+      &:hover {
+        border-bottom: solid 3px $white;
+        border-top: solid 3px $white;
+      }
     }
   }
 }

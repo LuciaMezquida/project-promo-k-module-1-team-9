@@ -19,6 +19,7 @@
 .photo-individual {
   border: 5px solid rgba(0, 0, 0, 0.08);
   border-radius: 4px;
+
   @media all and (min-width: 768px) {
     width: 205px;
   }
@@ -26,7 +27,13 @@
     width: 278px;
   }
 }
-
+.photo1,
+.photo2 {
+  &:hover {
+    transform: rotate(360deg);
+    transition: ease 2s;
+  }
+}
 .file {
   @media all and (min-width: 768px) {
     display: grid;
@@ -71,6 +78,11 @@
   justify-content: space-between;
   li {
     list-style-type: none;
+    &:hover {
+      transform: translate(0, -5px);
+      transition: cubic-bezier(0.79, 0.22, 0.35, 1.7);
+      padding-bottom: 5px;
+    }
   }
   a {
     color: $color-main;

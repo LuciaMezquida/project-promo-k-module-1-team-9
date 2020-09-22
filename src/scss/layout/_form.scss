@@ -78,6 +78,18 @@
   margin-top: 30px;
   margin-bottom: 60px;
   font-family: $font-main;
+  &:hover {
+    transform: scale(1.5px);
+    border-radius: 0;
+    background: linear-gradient(
+      326deg,
+      rgba(49, 54, 55, 1) 0%,
+      rgba(9, 121, 101, 1) 46%,
+      rgba(97, 226, 252, 1) 100%
+    );
+    width: 350px;
+    transition: ease 2s;
+  }
   @media all and (min-width: 768px) {
     width: 206px;
   }
