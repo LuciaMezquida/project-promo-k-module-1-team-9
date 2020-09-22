@@ -29,9 +29,9 @@
 }
 .photo1,
 .photo2 {
+  transition: ease 2s;
   &:hover {
     transform: rotate(360deg);
-    transition: ease 2s;
   }
 }
 .file {
@@ -81,7 +81,6 @@
     &:hover {
       transform: translate(0, -5px);
       transition: cubic-bezier(0.79, 0.22, 0.35, 1.7);
-      padding-bottom: 5px;
     }
   }
   a {
