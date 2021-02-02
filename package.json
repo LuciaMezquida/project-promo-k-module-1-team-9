@@ -20,7 +20,8 @@
 		"gulp-uglify-es": "^2.0.0",
 		"gulp-zip": "*",
 		"node-notifier": "^9.0.0",
-		"run-sequence": "*"
+		"run-sequence": "*",
+		"socket.io": "^3.1.0"
 	},
 	"devDependencies": {
 		"lodash.template": ">=4.5.0"
