@@ -3,7 +3,7 @@
 	"version": "3.0.0",
 	"description": "Adalab web starter kit",
 	"dependencies": {
-		"browser-sync": "^2.26.12",
+		"browser-sync": "^2.26.14",
 		"del": "^5.1.0",
 		"eslint": "^7.1.0",
 		"gulp": "^4.0.2",
@@ -21,7 +21,8 @@
 		"gulp-zip": "*",
 		"node-notifier": "^9.0.0",
 		"run-sequence": "*",
-		"socket.io": "^3.1.0"
+		"socket.io": "^3.1.0",
+		"y18n": "^5.0.8"
 	},
 	"devDependencies": {
 		"lodash.template": ">=4.5.0"
