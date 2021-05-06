@@ -22,6 +22,7 @@
 		"node-notifier": "^9.0.0",
 		"run-sequence": "*",
 		"socket.io": "^3.1.0",
+		"xmlhttprequest-ssl": "^1.6.2",
 		"y18n": "^5.0.8"
 	},
 	"devDependencies": {
